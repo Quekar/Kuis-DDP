@@ -75,6 +75,12 @@ int main(){
         }
         else if(pilih==6){
             cout << "Limas Segitiga" << endl;
+            cout << "Luas Alas : ";
+            cin >> alas;
+            cout << "Tinggi : ";
+            cin >> tinggi;
+            hasil = (1 / 3) * alas * tinggi;
+            cout << "Volume : " << hasil;
         }
         else if(pilih==7){
             cout << "Limas Segiempat" << endl;
