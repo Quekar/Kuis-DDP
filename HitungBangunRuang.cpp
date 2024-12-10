@@ -108,10 +108,6 @@ int main(){
             hasil = alas * tinggi * 1 / 2;
             cout << Volume : " << hasil;
         }
-        else if(pilih==9){
-            cout << "Prisma Segilima" << endl;
-            cout << 
-        }
         else {
             pilih=0;
             }
