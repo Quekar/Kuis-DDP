@@ -11,6 +11,7 @@ int main(){
     double lebar;
     double tinggi;
     double diameter;
+    double r;
     double hasil;
     
         system("Cls");
@@ -26,29 +27,58 @@ int main(){
         cout << "3. Bola" << endl;
         cout << "4. Tabung" << endl;
         cout << "5. Kerucut" << endl;
-        cout << "6. Limas" << endl;
-        cout << "7. Segitiga" << endl;
+        cout << "6. Limas Segitiga" << endl;
+        cout << "7. Limas Segiempat" << endl;
+        cout << "8. Prisma Segilima" << endl;
+        cout << "9. Prisma Segitiga" << endl;
         cout << "0. Keluar" << endl;
 
         cin >> pilih;
+        cout << endl;
+        cout << "-=============-" << endl;
         if(pilih==1){
+            cout << "Kubus" << endl;
             cout << "Sisi : ";
             cin >> sisi;
             hasil = pow(sisi, 3);
             cout << "Volume : " << hasil;
         }
         else if(pilih==2){
+            cout << "Balok" << endl;
             cout << "Panjang : ";
             cin >> panjang;
             cout << "Lebar : ";
             cin >> lebar;
             cout << "Tinggi : ";
             cin >> tinggi;
-            hasil=panjang*lebar*tinggi;
+            hasil = panjang * lebar * tinggi;
             cout << "Volume : " << hasil;
         }
         else if(pilih==3){
-            cout << "
+            cout << "Bola" << endl;
+            cout << "Jari-jari : ";
+            cin >> r;
+            hasil = (PI * pow(r, 3)) * 4 / 3;
+            cout << "Volume : " << hasil;
+        }
+        else if(pilih==4){
+            cout << "Tabung" << endl;
+        }
+        else if(pilih==5){
+            cout << "Kerucut" << endl;
+        }
+        else if(pilih==6){
+            cout << "Limas Segitiga" << endl;
+        }
+        else if(pilih==7){
+            cout << "Limas Segiempat" << endl;
+        }
+        else if(pilih==8){
+            cout << "Prisma Segitiga" << endl;
+        }
+        else if(pilih==9){
+            cout << "Prisma Segilima" << endl;
+        }
         else {
             pilih=0;
             }
