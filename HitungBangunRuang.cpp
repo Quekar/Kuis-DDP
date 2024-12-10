@@ -68,7 +68,7 @@ int main(){
             cin >> r;
             cout << "Tinggi : ";
             cin >> tinggi;
-            hasil = PI * pow(r, 2) * tinggi;
+            hasil = PI * pow(r, 2) * tinggi * 1 / 3;
             cout << "Volume : " << hasil;
         }
         else if(pilih==5){
