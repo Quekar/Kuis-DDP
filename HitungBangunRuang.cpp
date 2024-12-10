@@ -1,5 +1,6 @@
 #include <cmath>
 #include <iostream>
+#include <windows.h>
 using namespace std;
 
 int main(){
@@ -12,12 +13,17 @@ int main(){
     double diameter;
     double hasil;
     
-    cout << "Selamat Datang" << endl;
+        system("Cls");
+        cout << "-============-" << endl;
+        cout << "Selamat Datang" << endl;
+        cout << "-============-" << endl;
+        Sleep(3000);
     do{
-        cout << endl << endl << "pilih Bangun Ruang" << endl;
-        cout << "1. Kubik"      << endl;
-        cout << "2. apalah"     << endl;
-        cout << "3. dst"        << endl;
+        cout << endl << endl << "Pilih Bangun Ruang" << endl;
+        cout <<                 "------------------" << endl;
+        cout << "1. Kubus" << endl;
+        cout << "2. Balok" << endl;
+        cout << "3. dst" << endl;
         cout << "lanjut isi plis" << endl;
         cout << "0. Keluar" << endl;
 
@@ -26,9 +32,25 @@ int main(){
             cout << "Sisi : ";
             cin >> sisi;
             hasil = pow(sisi, 3);
-            cout << "hasil : " << hasil;
+            cout << "Volume : " << hasil;
         }
+        else if(pilih==2){
+            cout << "Panjang : ";
+            cin >> panjang;
+            cout << "Lebar : ";
+            cin >> lebar;
+            cout << "Tinggi : ";
+            cin >> tinggi;
+            hasil=panjang*lebar*tinggi;
+            cout << "Volume : " << hasil;
+        }
+        else {
+            pilih=0;
+            }
     } while(pilih!=0);
+    system("Cls");
     cout << endl << endl;
-    cout << "Terimakasih";
+    cout << "###########" << endl;
+    cout << "Terimakasih" << endl;
+    cout << "###########" << endl;
 }
