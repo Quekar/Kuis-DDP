@@ -23,8 +23,11 @@ int main(){
         cout <<                 "------------------" << endl;
         cout << "1. Kubus" << endl;
         cout << "2. Balok" << endl;
-        cout << "3. dst" << endl;
-        cout << "lanjut isi plis" << endl;
+        cout << "3. Bulat" << endl;
+        cout << "4. Tabung" << endl;
+        cout << "5. Kerucut" << endl;
+        cout << "6. Limas" << endl;
+        cout << "7. Segitiga" << endl;
         cout << "0. Keluar" << endl;
 
         cin >> pilih;
