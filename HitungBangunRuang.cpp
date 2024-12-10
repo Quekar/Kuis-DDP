@@ -13,7 +13,7 @@ int main(){
     double diameter;
     double r;
     double alas;
-    double luas alas;
+    double luas_alas;
     double hasil;
     
         system("Cls");
@@ -96,7 +96,7 @@ int main(){
             cin >> luas alas;
             cout << "Tinggi : ";
             cin >> tinggi;
-            hasil = luas alas * tinggi * 1 / 3;
+            hasil = luas_alas * tinggi * 1 / 3;
             cout << "Volume : " << hasil;
         }
         else if(pilih==8){
