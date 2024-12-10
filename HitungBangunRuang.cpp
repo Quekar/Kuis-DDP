@@ -31,8 +31,7 @@ int main(){
         cout << "5. Kerucut" << endl;
         cout << "6. Limas Segitiga" << endl;
         cout << "7. Limas Segiempat" << endl;
-        cout << "8. Prisma Segilima" << endl;
-        cout << "9. Prisma Segitiga" << endl;
+        cout << "8. Prisma Segitiga" << endl;
         cout << "0. Keluar" << endl;
 
         cin >> pilih;
