@@ -73,6 +73,8 @@ int main(){
         }
         else if(pilih==5){
             cout << "Kerucut" << endl;
+            cout << "Jari- jari : ";
+            cin >> r
         }
         else if(pilih==6){
             cout << "Limas Segitiga" << endl;
@@ -80,7 +82,7 @@ int main(){
             cin >> alas;
             cout << "Tinggi : ";
             cin >> tinggi;
-            hasil = (1 / 6) * alas * tinggi;
+            hasil = alas * tinggi * 1/ 6;
             cout << "Volume : " << hasil;
         }
         else if(pilih==7){
