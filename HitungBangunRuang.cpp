@@ -13,6 +13,7 @@ int main(){
     double diameter;
     double r;
     double alas;
+    double luas alas;
     double hasil;
     
         system("Cls");
@@ -91,13 +92,25 @@ int main(){
         }
         else if(pilih==7){
             cout << "Limas Segiempat" << endl;
-            cout << 
+            cout << "Luas Alas : ";
+            cin >> luas alas;
+            cout << "Tinggi : ";
+            cin >> tinggi;
+            hasil = luas alas * tinggi * 1 / 3;
+            cout << "Volume : " << hasil;
         }
         else if(pilih==8){
             cout << "Prisma Segitiga" << endl;
+            cout << "Alas : ";
+            cin >> alas;
+            cout << "Tinggi : ";
+            cin >> tinggi;
+            hasil = alas * tinggi * 1 / 2;
+            cout << Volume : " << hasil;
         }
         else if(pilih==9){
             cout << "Prisma Segilima" << endl;
+            cout << 
         }
         else {
             pilih=0;
