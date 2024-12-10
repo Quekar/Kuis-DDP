@@ -41,6 +41,7 @@ int main(){
             cout << "Kubus" << endl;
             cout << "Sisi : ";
             cin >> sisi;
+            if(cin.fail()) break;
             hasil = pow(sisi, 3);
             cout << "Volume : " << hasil;
         }
@@ -48,10 +49,13 @@ int main(){
             cout << "Balok" << endl;
             cout << "Panjang : ";
             cin >> panjang;
+            if(cin.fail()) break;
             cout << "Lebar : ";
             cin >> lebar;
+            if(cin.fail()) break;
             cout << "Tinggi : ";
             cin >> tinggi;
+            if(cin.fail()) break;
             hasil = panjang * lebar * tinggi;
             cout << "Volume : " << hasil;
         }
@@ -59,6 +63,7 @@ int main(){
             cout << "Bola" << endl;
             cout << "Jari-jari : ";
             cin >> r;
+            if(cin.fail()) break;
             hasil = (PI * pow(r, 3)) * 4 / 3;
             cout << "Volume : " << hasil;
         }
@@ -66,8 +71,10 @@ int main(){
             cout << "Tabung" << endl;
             cout << "Jari-jari : ";
             cin >> r;
+            if(cin.fail()) break;
             cout << "Tinggi : ";
             cin >> tinggi;
+            if(cin.fail()) break;
             hasil = PI * pow(r, 2) * tinggi;
             cout << "Volume : " << hasil;
         }
@@ -75,8 +82,10 @@ int main(){
             cout << "Kerucut" << endl;
             cout << "Jari- jari : ";
             cin >> r;
+            if(cin.fail()) break;
             cout << "Tinggi : ";
             cin >> tinggi;
+            if(cin.fail()) break;
             hasil = PI * pow(r, 2) * tinggi * 1 / 3;
             cout << "Volume : " << hasil;
         }
@@ -84,17 +93,21 @@ int main(){
             cout << "Limas Segitiga" << endl;
             cout << "Alas : ";
             cin >> alas;
+            if(cin.fail()) break;
             cout << "Tinggi : ";
             cin >> tinggi;
+            if(cin.fail()) break;
             hasil = (alas * tinggi / 2) * 1 / 3;
             cout << "Volume : " << hasil;
         }
         else if(pilih==7){
             cout << "Limas Segiempat" << endl;
             cout << "Luas Alas : ";
-            cin >> luas alas;
+            cin >> luas_alas;
+            if(cin.fail()) break;
             cout << "Tinggi : ";
             cin >> tinggi;
+            if(cin.fail()) break;
             hasil = luas_alas * tinggi * 1 / 3;
             cout << "Volume : " << hasil;
         }
@@ -102,8 +115,10 @@ int main(){
             cout << "Prisma Segitiga" << endl;
             cout << "Alas : ";
             cin >> alas;
+            if(cin.fail()) break;
             cout << "Tinggi : ";
             cin >> tinggi;
+            if(cin.fail()) break;
             hasil = alas * tinggi * 1 / 2;
             cout << "Volume : " << hasil;
         }
