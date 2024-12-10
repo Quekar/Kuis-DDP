@@ -79,11 +79,12 @@ int main(){
             cin >> alas;
             cout << "Tinggi : ";
             cin >> tinggi;
-            hasil = (1 / 3) * alas * tinggi;
+            hasil = (1 / 6) * alas * tinggi;
             cout << "Volume : " << hasil;
         }
         else if(pilih==7){
             cout << "Limas Segiempat" << endl;
+            cout << 
         }
         else if(pilih==8){
             cout << "Prisma Segitiga" << endl;
