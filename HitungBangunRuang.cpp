@@ -63,6 +63,12 @@ int main(){
         }
         else if(pilih==4){
             cout << "Tabung" << endl;
+            cout << "Jari-jari : ";
+            cin >> r;
+            cout << "Tinggi : ";
+            cin >> tinggi;
+            hasil = PI * pow(r, 2) * tinggi;
+            cout << "Volume : " << hasil;
         }
         else if(pilih==5){
             cout << "Kerucut" << endl;
