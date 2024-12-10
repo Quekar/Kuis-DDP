@@ -68,21 +68,25 @@ int main(){
             cin >> r;
             cout << "Tinggi : ";
             cin >> tinggi;
-            hasil = PI * pow(r, 2) * tinggi * 1 / 3;
+            hasil = PI * pow(r, 2) * tinggi;
             cout << "Volume : " << hasil;
         }
         else if(pilih==5){
             cout << "Kerucut" << endl;
             cout << "Jari- jari : ";
-            cin >> r
+            cin >> r;
+            cout << "Tinggi : ";
+            cin >> tinggi;
+            hasil = PI * pow(r, 2) * tinggi * 1 / 3;
+            cout << "Volume : " << hasil;
         }
         else if(pilih==6){
             cout << "Limas Segitiga" << endl;
-            cout << "Luas Alas : ";
+            cout << "Alas : ";
             cin >> alas;
             cout << "Tinggi : ";
             cin >> tinggi;
-            hasil = alas * tinggi * 1/ 6;
+            hasil = (alas * tinggi / 2) * 1 / 3;
             cout << "Volume : " << hasil;
         }
         else if(pilih==7){
