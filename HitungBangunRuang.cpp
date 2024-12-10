@@ -23,7 +23,7 @@ int main(){
         cout <<                 "------------------" << endl;
         cout << "1. Kubus" << endl;
         cout << "2. Balok" << endl;
-        cout << "3. Bulat" << endl;
+        cout << "3. Bola" << endl;
         cout << "4. Tabung" << endl;
         cout << "5. Kerucut" << endl;
         cout << "6. Limas" << endl;
@@ -47,6 +47,8 @@ int main(){
             hasil=panjang*lebar*tinggi;
             cout << "Volume : " << hasil;
         }
+        else if(pilih==3){
+            cout << "
         else {
             pilih=0;
             }
