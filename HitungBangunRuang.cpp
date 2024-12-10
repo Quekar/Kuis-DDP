@@ -12,6 +12,7 @@ int main(){
     double tinggi;
     double diameter;
     double r;
+    double alas;
     double hasil;
     
         system("Cls");
