@@ -105,7 +105,7 @@ int main(){
             cout << "Tinggi : ";
             cin >> tinggi;
             hasil = alas * tinggi * 1 / 2;
-            cout << Volume : " << hasil;
+            cout << "Volume : " << hasil;
         }
         else {
             pilih=0;
