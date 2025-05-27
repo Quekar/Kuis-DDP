@@ -7,3 +7,4 @@ Andhika Akbar Pratama
 <br/> Zahira Adiah Safa
 ##
 Terima Kasih
+![](https://github.com/Quekar/Gif-placeholder/blob/main/cat_gun.gif)
